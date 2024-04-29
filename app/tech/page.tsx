@@ -73,12 +73,21 @@ export default function Tech() {
             height={0}
             sizes="100vw"
             style={{ width: '80%', height: 'auto' }}
+            unoptimized
           />
       </div>
       <h2>Arcade Game (<a href="https://github.com/rustyabbott/arcade-game" target="_blank" rel="noopener noreferrer">GitHub</a>, <a href="https://rustyabbott.github.io/arcade-game/" target="_blank" rel="noopener noreferrer">Play Live</a>)</h2>
-      <p>A remake of the classic arcade game, "Frogger", for the Grow with Google / Udacity front-end web developer program. Desktop only. Use the arrows on your keyboard to play.</p>
+      <p>A remake of the classic arcade game, &quot;Frogger&quot;, for the Grow with Google / Udacity front-end web developer program. Desktop only. Use the arrows on your keyboard to play.</p>
       <div className="gif-wrapper">
-        <img src="img/arcade-game.gif" alt="arcade game" />
+        <Image
+              src="/img/arcade-game.gif"
+              alt="arcade game"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '80%', height: 'auto' }}
+              unoptimized
+          />
       </div>
       <h2>Analog Clock (<a href="https://github.com/rustyabbott/clock" target="_blank" rel="noopener noreferrer">GitHub</a>, <a href="https://rustyabbott.github.io/clock/" target="_blank" rel="noopener noreferrer">Play Live</a>)</h2>
       <p>Simple analog clock in JavaScript utilizing HTML5 Canvas.</p>
@@ -90,6 +99,7 @@ export default function Tech() {
             height={0}
             sizes="100vw"
             style={{ width: '80%', height: 'auto' }}
+            unoptimized
           />
       </div>
     </main>
