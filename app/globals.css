@@ -214,8 +214,6 @@ footer {
 }
 
 .gif-wrapper img {
-  width: 100%;
-  height: auto;
   border-radius: 12px;
   box-shadow: #d1d1d5 0px 5px 15px;
   margin: 0 auto;
