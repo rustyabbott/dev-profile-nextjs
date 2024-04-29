@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-between w-full">
       <Image
-        src="/rabbitmtrx.jpeg"
+        src="/img/rabbitmtrx.jpeg"
         alt="good evening"
         width={200}
         height={200}
