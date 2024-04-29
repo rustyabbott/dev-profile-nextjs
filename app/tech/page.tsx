@@ -20,7 +20,7 @@ export default function Tech() {
           />
         </a>
       </div>
-      <p>I'm currently a software engineer at SureSwift Capital where I work on two SaaS applications, <a href="https://mailparser.io" target="_blank" rel="noopener noreferrer">Mailparser</a> &amp; <a href="https://docparser.com" target="_blank" rel="noopener noreferrer">Docparser</a>. We use a variety of technologies and languages including PHP, MySQL, jQuery, AWS Simple Queing Systems (SQS), Docker, and Redis. The apps allow customers to extract data from emails, PDFs, XLS documents (plus many more options) and disperse the data through integrations and APIs like Google Sheets, Zapier, and Microsoft Power Automate.</p>
+      <p>I&apos;m currently a software engineer at SureSwift Capital where I work on two SaaS applications, <a href="https://mailparser.io" target="_blank" rel="noopener noreferrer">Mailparser</a> &amp; <a href="https://docparser.com" target="_blank" rel="noopener noreferrer">Docparser</a>. We use a variety of technologies and languages including PHP, MySQL, jQuery, AWS Simple Queing Systems (SQS), Docker, and Redis. The apps allow customers to extract data from emails, PDFs, XLS documents (plus many more options) and disperse the data through integrations and APIs like Google Sheets, Zapier, and Microsoft Power Automate.</p>
       <div className="gif-wrapper">
         <a href="https://docparser.com" target="_blank" rel="noopener noreferrer">
           <Image
@@ -62,7 +62,7 @@ export default function Tech() {
       </div>
       <p>Prior to REP Fitness, I was a developer for InMotion Hosting, working on multiple marketing sites and blogs, including <a href="https://www.inmotionhosting.com" target="_blank" rel="noopener noreferrer">inmotionhosting.com</a> and <a href="https://www.webhostinghub.com" target="_blank" rel="noopener noreferrer">webhostinghub.com</a>. Technologies included Symfony 2 & 4, PHP, GitLab CI/CD, jQuery/Javascript, Sass, Nginx, MariaDB, WordPress, and CentOS.</p>
       <h2>RustyAbbott.com (<a href="https://github.com/rustyabbott/rustyabbott.com" target="_blank" rel="noopener noreferrer">GitHub</a>)</h2>
-      <p>The web app you're currently viewing was built with Facebook's <a href="https://github.com/facebook/create-react-app" target="_blank" rel="noopener noreferrer">Create React App</a>. It utilizes hookrouter for routing and SASS/SCSS for styling.</p>
+      <p>The web app you&apos;re currently viewing was built with Facebook&apos;s <a href="https://github.com/facebook/create-react-app" target="_blank" rel="noopener noreferrer">Create React App</a>. It utilizes hookrouter for routing and SASS/SCSS for styling.</p>
       <h2>Memory Game (<a href="https://github.com/rustyabbott/memory-game" target="_blank" rel="noopener noreferrer">GitHub</a>, <a href="https://rustyabbott.github.io/memory-game/" target="_blank" rel="noopener noreferrer">Play Live</a>)</h2>
       <p>Match all cards to win! Project two for the Grow with Google / Udacity front-end web development program. Coded with jQuery.</p>
       <div className="gif-wrapper">
