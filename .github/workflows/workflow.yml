@@ -27,6 +27,6 @@ jobs:
           SSH_USER: ${{ secrets.SSH_USER }}
       - name: Deploy
         run: |
-          ssh prod "cd $WORKING_DIR && git checkout main && git pull && $NPM install && $NPM run build && exit"
+          ssh prod "cd $WORKING_DIR && git checkout main && git pull && echo $PATH && echo whoami && pwd && exit"
         env:
           WORKING_DIR: ${{ secrets.WORKING_DIR }}
