@@ -27,6 +27,6 @@ jobs:
           SSH_USER: ${{ secrets.SSH_USER }}
       - name: Deploy
         run: |
-          ssh prod "cd $WORKING_DIR && git checkout main && git pull && export NVM_DIR=~/.nvm && source ~/.nvm/nvm.sh && npm install && npm run build && npm run start"
+          ssh prod "cd $WORKING_DIR && git checkout main && git pull && export NVM_DIR=~/.nvm && source ~/.nvm/nvm.sh && npm install && npm run build && exit"
         env:
           WORKING_DIR: ${{ secrets.WORKING_DIR }}
