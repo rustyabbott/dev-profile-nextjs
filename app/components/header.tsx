@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Header() {
     return (
-        <header className="bg-sky-700 w-full text-white h-14 fixed top-0">
+        <header className="bg-[#0b6cfd] w-full text-white h-14 fixed top-0">
             <div className="max-w-5xl m-auto text-2xl h-full">
                 <nav className="sm:hidden flex items-center justify-between h-full">
                     <Link href="/">
