@@ -31,7 +31,7 @@ export default function Tech() {
           </Link>
         </div>
 
-        <p>I'm currently a full stack developer at the National Wild Turkey Federation. My primary project is re-writing their events management system with Laravel Sail + Inertia.js (Vue). I also maintain and update the existing system, plus lead Devops using GitLab CI/CD and AWS services.</p>
+        <p>I&apos;m currently a full stack developer at the National Wild Turkey Federation. My primary project is re-writing their events management system with Laravel Sail + Inertia.js (Vue). I also maintain and update the existing system, plus lead Devops using GitLab CI/CD and AWS services.</p>
 
         <h2>SureSwift Capital (<Link href="https://www.sureswiftcapital.com" target="_blank" rel="noopener noreferrer">Company Site</Link>)</h2>
 
