@@ -1,10 +1,32 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Head from 'next/head';
 
 export const metadata: Metadata = {
   title: "Rusty Abbott | Developer Profile",
   description: "A compilation of projects.",
+  icons: [
+      {
+          rel: "icon",
+          url: "/favicon.ico"
+      },
+      {
+          rel: "icon",
+          url: "/android-chrome-192x192.png",
+          sizes: "192x192",
+          type: "image/png"
+      },
+      {
+          rel: "icon",
+          url: "/android-chrome-512x512.png",
+          sizes: "512x512",
+          type: "image/png"
+      },
+      {
+          rel: "apple-touch-icon",
+          url: "/apple-touch-icon.png",
+          sizes: "180x180"
+      }
+  ]
 };
 
 export default function RootLayout({
@@ -14,12 +36,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-      </Head>
       <body className="bg-black">{children}</body>
     </html>
   );
