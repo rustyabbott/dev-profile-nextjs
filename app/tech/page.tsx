@@ -8,10 +8,33 @@ export default function Tech() {
     <>
       <Header />
       <main className="pageWrapper">
+
         <h1>&lt;Technology /&gt;</h1>
-        <h2>Software &amp; Languages</h2>
-        <p>JavaScript, React, jQuery, ES6, PHP, MySQL, MariaDB, Python, Bash, HTML5, CSS3, SASS, Symfony, Linux, Apache, Nginx, Node.js, Yarn, npm, Webpack, Adobe Suite, AWS, Git, GitHub, GitLab, Docker, OpenStack, Kubernetes, Ubuntu, CentOS, cPanel, WordPress.</p>
+
+        <h2>Software, Languages, &amp; Frameworks</h2>
+
+        <p>Proficieny: PHP, JavaScript, TypeScript, MySQL, Laravel, React, Vue, Symfony, Tailwind, CSS, Linux (Ubuntu), Bash, AWS services (EC2, ASG, CloudWatch, S3, SQS), CI/CD via GitLab & GitHub. Familiarity: Python, Django, Go, Kubernetes, PyTorch.</p>
+
+        <h2>National Wild Turkey Federation (<Link href="https://www.nwtf.org/" target="_blank" rel="noopener noreferrer">Company Site</Link>)</h2>
+
+        <div className="gif-wrapper">
+          <Link href="https://www.nwtf.org/" target="_blank" rel="noopener noreferrer">
+            <Image
+              src="/img/nwtf.png"
+              alt="National Wild Turkey Federation"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '80%', height: 'auto' }}
+              className="m-auto"
+            />
+          </Link>
+        </div>
+
+        <p>I'm currently a full stack developer at the National Wild Turkey Federation. My primary project is re-writing their events management system with Laravel Sail + Inertia.js (Vue). I also maintain and update the existing system, plus lead Devops using GitLab CI/CD and AWS services.</p>
+
         <h2>SureSwift Capital (<Link href="https://www.sureswiftcapital.com" target="_blank" rel="noopener noreferrer">Company Site</Link>)</h2>
+
         <div className="gif-wrapper">
           <Link href="https://mailparser.io" target="_blank" rel="noopener noreferrer">
             <Image
@@ -24,7 +47,8 @@ export default function Tech() {
             />
           </Link>
         </div>
-        <p>I&apos;m currently a software engineer at SureSwift Capital where I work on two SaaS applications, <Link href="https://mailparser.io" target="_blank" rel="noopener noreferrer">Mailparser</Link> &amp; <Link href="https://docparser.com" target="_blank" rel="noopener noreferrer">Docparser</Link>. We use a variety of technologies and languages including PHP, MySQL, jQuery, AWS Simple Queing Systems (SQS), Docker, and Redis. The apps allow customers to extract data from emails, PDFs, XLS documents (plus many more options) and disperse the data through integrations and APIs like Google Sheets, Zapier, and Microsoft Power Automate.</p>
+
+        <p>Prior to the NWTF, I was a a software engineer at SureSwift Capital where I worked on two SaaS web applications, <Link href="https://mailparser.io" target="_blank" rel="noopener noreferrer">Mailparser</Link> &amp; <Link href="https://docparser.com" target="_blank" rel="noopener noreferrer">Docparser</Link>. We used a variety of technologies and languages including PHP, MySQL, jQuery, AWS Simple Queing Systems (SQS), Docker, and Redis. The apps allow customers to extract data from emails, PDFs, XLS documents (plus many more options) and disperse the data through integrations and APIs like Google Sheets, Zapier, and Microsoft Power Automate.</p>
         <div className="gif-wrapper">
           <Link href="https://docparser.com" target="_blank" rel="noopener noreferrer">
             <Image
