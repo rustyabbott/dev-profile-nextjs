@@ -7,23 +7,23 @@ export const metadata: Metadata = {
   icons: [
       {
           rel: "icon",
-          url: "/favicon.ico"
+          url: "/img/favicon.ico"
       },
       {
           rel: "icon",
-          url: "/android-chrome-192x192.png",
+          url: "/img/android-chrome-192x192.png",
           sizes: "192x192",
           type: "image/png"
       },
       {
           rel: "icon",
-          url: "/android-chrome-512x512.png",
+          url: "/img/android-chrome-512x512.png",
           sizes: "512x512",
           type: "image/png"
       },
       {
           rel: "apple-touch-icon",
-          url: "/apple-touch-icon.png",
+          url: "/img/apple-touch-icon.png",
           sizes: "180x180"
       }
   ]
